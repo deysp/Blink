@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    color: black;
+    font-size: 10em;
+    margin-top: 1em;
+}
+
+button {
+    margin: 10em auto;
+    cursor: pointer;
+    padding: 2em;
+    min-width: 10em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: blueviolet;
+    border: .25em solid black;
+}
+
+.on {
+    background-color: blanchedalmond;
+}
+
+.off {
+    background-color: aquamarine;
+}
